@@ -1,8 +1,0 @@
-org\kevin\common\swagger\config\SwaggerWebConfiguration.class
-org\kevin\common\swagger\config\SwaggerProperties$Authorization.class
-org\kevin\common\swagger\config\SwaggerProperties$AuthorizationScope.class
-org\kevin\common\swagger\config\SwaggerBeanPostProcessor.class
-org\kevin\common\swagger\config\SwaggerAutoConfiguration.class
-org\kevin\common\swagger\config\SwaggerProperties$Contact.class
-org\kevin\common\swagger\annotation\EnableCustomSwagger2.class
-org\kevin\common\swagger\config\SwaggerProperties.class
