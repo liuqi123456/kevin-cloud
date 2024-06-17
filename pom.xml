@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.kevin</groupId>
+  <artifactId>kevin-cloud</artifactId>
+  <packaging>pom</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>kevin-common</module>
+    <module>kevin-gateway</module>
+    <module>kevin-modules</module>
+    <module>kevin-visual</module>
+    <module>kevin-api</module>
+  </modules>
+
+  <name>kevin-cloud</name>
+  <!-- FIXME change it to the project's website -->
+  <url>http://www.example.com</url>
+
+  <properties>
+    <java.version>1.8</java.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <spring-framework.version>5.3.33</spring-framework.version>
+    <spring-boot-admin.version>2.7.15</spring-boot-admin.version>
+    <spring-boot.version>2.7.18</spring-boot.version>
+    <spring-cloud.version>2021.0.8</spring-cloud.version>
+    <spring-cloud-alibaba.version>2021.0.5.0</spring-cloud-alibaba.version>
+    <tobato.version>1.27.2</tobato.version>
+    <swagger.fox.version>3.0.0</swagger.fox.version>
+    <swagger.core.version>1.6.2</swagger.core.version>
+    <kaptcha.version>2.3.3</kaptcha.version>
+    <pagehelper.boot.version>2.0.0</pagehelper.boot.version>
+    <commons.io.version>2.13.0</commons.io.version>
+    <poi.version>4.1.2</poi.version>
+    <velocity.version>2.3</velocity.version>
+    <fastjson.version>2.0.43</fastjson.version>
+    <transmittable-thread-local.version>2.14.4</transmittable-thread-local.version>
+    <jjwt.version>0.9.1</jjwt.version>
+    <kevin.version>1.0-SNAPSHOT</kevin.version>
+
+    <druid.version>1.2.20</druid.version>
+    <dynamic-ds.version>4.2.0</dynamic-ds.version>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-framework-bom</artifactId>
+        <version>${spring-framework.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-dependencies</artifactId>
+        <version>${spring-boot.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-dependencies</artifactId>
+        <version>${spring-cloud.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>com.alibaba.cloud</groupId>
+        <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+        <version>${spring-cloud-alibaba.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>com.github.tobato</groupId>
+        <artifactId>fastdfs-client</artifactId>
+        <version>${tobato.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>io.springfox</groupId>
+        <artifactId>springfox-swagger2</artifactId>
+        <version>${swagger.fox.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.springfox</groupId>
+        <artifactId>springfox-swagger-ui</artifactId>
+        <version>${swagger.fox.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.swagger</groupId>
+        <artifactId>swagger-models</artifactId>
+        <version>${swagger.core.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.swagger</groupId>
+        <artifactId>swagger-annotations</artifactId>
+        <version>${swagger.core.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>pro.fessional</groupId>
+        <artifactId>kaptcha</artifactId>
+        <version>${kaptcha.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.github.pagehelper</groupId>
+        <artifactId>pagehelper-spring-boot-starter</artifactId>
+        <version>${pagehelper.boot.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>de.codecentric</groupId>
+        <artifactId>spring-boot-admin-starter-server</artifactId>
+        <version>${spring-boot-admin.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>commons-io</groupId>
+        <artifactId>commons-io</artifactId>
+        <version>${commons.io.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi-ooxml</artifactId>
+        <version>${poi.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.apache.velocity</groupId>
+        <artifactId>velocity-engine-core</artifactId>
+        <version>${velocity.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.alibaba.fastjson2</groupId>
+        <artifactId>fastjson2</artifactId>
+        <version>${fastjson.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>transmittable-thread-local</artifactId>
+        <version>${transmittable-thread-local.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>druid-spring-boot-starter</artifactId>
+        <version>${druid.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.baomidou</groupId>
+        <artifactId>dynamic-datasource-spring-boot-starter</artifactId>
+        <version>${dynamic-ds.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>io.jsonwebtoken</groupId>
+        <artifactId>jjwt</artifactId>
+        <version>${jjwt.version}</version>
+      </dependency>
+
+      <!-- self service -->
+      <dependency>
+        <groupId>org.kevin</groupId>
+        <artifactId>kevin-api-system</artifactId>
+        <version>${kevin.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.kevin</groupId>
+        <artifactId>kevin-common-core</artifactId>
+        <version>${kevin.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.kevin</groupId>
+        <artifactId>kevin-common-datascope</artifactId>
+        <version>${kevin.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.kevin</groupId>
+        <artifactId>kevin-common-datasource</artifactId>
+        <version>${kevin.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.kevin</groupId>
+        <artifactId>kevin-common-log</artifactId>
+        <version>${kevin.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.kevin</groupId>
+        <artifactId>kevin-common-redis</artifactId>
+        <version>${kevin.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.kevin</groupId>
+        <artifactId>kevin-common-seata</artifactId>
+        <version>${kevin.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.kevin</groupId>
+        <artifactId>kevin-common-security</artifactId>
+        <version>${kevin.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.kevin</groupId>
+        <artifactId>kevin-common-sensitive</artifactId>
+        <version>${kevin.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.kevin</groupId>
+        <artifactId>kevin-common-swagger</artifactId>
+        <version>${kevin.version}</version>
+      </dependency>
+
+    </dependencies>
+  </dependencyManagement>
+
+  <dependencies>
+    <!-- bootstrap 启动器 -->
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-bootstrap</artifactId>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>${java.version}</source>
+          <target>${java.version}</target>
+          <encoding>${project.build.sourceEncoding}</encoding>
+        </configuration>
+      </plugin>
+    </plugins>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-maven-plugin</artifactId>
+          <version>${spring-boot.version}</version>
+          <executions>
+            <execution>
+              <goals>
+                <goal>repackage</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
+</project>

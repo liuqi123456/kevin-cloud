@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/kevin-api/kevin-api-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kevin-api/kevin-api-system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kevin-common/kevin-common-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kevin-common/kevin-common-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kevin-common/kevin-common-datascope/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kevin-common/kevin-common-datascope/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kevin-common/kevin-common-datasource/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kevin-common/kevin-common-log/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kevin-common/kevin-common-log/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kevin-common/kevin-common-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kevin-common/kevin-common-redis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kevin-common/kevin-common-seata/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kevin-common/kevin-common-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kevin-common/kevin-common-security/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kevin-common/kevin-common-sensitive/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kevin-common/kevin-common-swagger/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kevin-common/kevin-common-swagger/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kevin-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kevin-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kevin-modules/kevin-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kevin-modules/kevin-auth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kevin-modules/kevin-file/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kevin-modules/kevin-gen/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kevin-modules/kevin-job/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kevin-modules/kevin-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kevin-modules/kevin-system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kevin-visual/kevin-monitor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kevin-visual/kevin-monitor/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

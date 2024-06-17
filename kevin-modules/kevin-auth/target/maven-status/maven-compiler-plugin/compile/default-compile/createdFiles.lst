@@ -1,0 +1,7 @@
+org\kevin\auth\AuthApplication.class
+org\kevin\auth\service\SysLoginService.class
+org\kevin\auth\form\RegisterBody.class
+org\kevin\auth\service\SysRecordLogService.class
+org\kevin\auth\service\SysPasswordService.class
+org\kevin\auth\form\LoginBody.class
+org\kevin\auth\controller\TokenController.class
