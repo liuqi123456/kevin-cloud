@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/kevin-api/kevin-api.iml" filepath="$PROJECT_DIR$/kevin-api/kevin-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kevin-api/kevin-api-system/kevin-api-system.iml" filepath="$PROJECT_DIR$/kevin-api/kevin-api-system/kevin-api-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kevin-modules/kevin-auth/kevin-auth.iml" filepath="$PROJECT_DIR$/kevin-modules/kevin-auth/kevin-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kevin-cloud.iml" filepath="$PROJECT_DIR$/kevin-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kevin-common/kevin-common.iml" filepath="$PROJECT_DIR$/kevin-common/kevin-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kevin-common/kevin-common-core/kevin-common-core.iml" filepath="$PROJECT_DIR$/kevin-common/kevin-common-core/kevin-common-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kevin-common/kevin-common-datascope/kevin-common-datascope.iml" filepath="$PROJECT_DIR$/kevin-common/kevin-common-datascope/kevin-common-datascope.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kevin-common/kevin-common-datasource/kevin-common-datasource.iml" filepath="$PROJECT_DIR$/kevin-common/kevin-common-datasource/kevin-common-datasource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kevin-common/kevin-common-log/kevin-common-log.iml" filepath="$PROJECT_DIR$/kevin-common/kevin-common-log/kevin-common-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kevin-common/kevin-common-redis/kevin-common-redis.iml" filepath="$PROJECT_DIR$/kevin-common/kevin-common-redis/kevin-common-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kevin-common/kevin-common-seata/kevin-common-seata.iml" filepath="$PROJECT_DIR$/kevin-common/kevin-common-seata/kevin-common-seata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kevin-common/kevin-common-security/kevin-common-security.iml" filepath="$PROJECT_DIR$/kevin-common/kevin-common-security/kevin-common-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kevin-common/kevin-common-sensitive/kevin-common-sensitive.iml" filepath="$PROJECT_DIR$/kevin-common/kevin-common-sensitive/kevin-common-sensitive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kevin-common/kevin-common-swagger/kevin-common-swagger.iml" filepath="$PROJECT_DIR$/kevin-common/kevin-common-swagger/kevin-common-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kevin-modules/kevin-file/kevin-file.iml" filepath="$PROJECT_DIR$/kevin-modules/kevin-file/kevin-file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kevin-gateway/kevin-gateway.iml" filepath="$PROJECT_DIR$/kevin-gateway/kevin-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kevin-modules/kevin-gen/kevin-gen.iml" filepath="$PROJECT_DIR$/kevin-modules/kevin-gen/kevin-gen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kevin-modules/kevin-job/kevin-job.iml" filepath="$PROJECT_DIR$/kevin-modules/kevin-job/kevin-job.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kevin-modules/kevin-modules.iml" filepath="$PROJECT_DIR$/kevin-modules/kevin-modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kevin-visual/kevin-monitor/kevin-monitor.iml" filepath="$PROJECT_DIR$/kevin-visual/kevin-monitor/kevin-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kevin-modules/kevin-system/kevin-system.iml" filepath="$PROJECT_DIR$/kevin-modules/kevin-system/kevin-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kevin-visual/kevin-visual.iml" filepath="$PROJECT_DIR$/kevin-visual/kevin-visual.iml" />
+    </modules>
+  </component>
+</project>

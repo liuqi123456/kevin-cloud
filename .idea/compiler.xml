@@ -13,17 +13,41 @@
         <module name="kevin-system" />
         <module name="kevin-common-datasource" />
         <module name="kevin-common-swagger" />
-        <module name="kevin-api-system" />
         <module name="kevin-job" />
+        <module name="kevin-api-system" />
         <module name="kevin-common-datascope" />
         <module name="kevin-common-seata" />
         <module name="kevin-common-security" />
         <module name="kevin-common-sensitive" />
-        <module name="kevin-common-log" />
         <module name="kevin-auth" />
+        <module name="kevin-common-log" />
         <module name="kevin-common-core" />
         <module name="kevin-monitor" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kevin-api" target="1.8" />
+      <module name="kevin-api-system" target="1.8" />
+      <module name="kevin-auth" target="1.8" />
+      <module name="kevin-cloud" target="1.8" />
+      <module name="kevin-common" target="1.8" />
+      <module name="kevin-common-core" target="1.8" />
+      <module name="kevin-common-datascope" target="1.8" />
+      <module name="kevin-common-datasource" target="1.8" />
+      <module name="kevin-common-log" target="1.8" />
+      <module name="kevin-common-redis" target="1.8" />
+      <module name="kevin-common-seata" target="1.8" />
+      <module name="kevin-common-security" target="1.8" />
+      <module name="kevin-common-sensitive" target="1.8" />
+      <module name="kevin-common-swagger" target="1.8" />
+      <module name="kevin-file" target="1.8" />
+      <module name="kevin-gateway" target="1.8" />
+      <module name="kevin-gen" target="1.8" />
+      <module name="kevin-job" target="1.8" />
+      <module name="kevin-modules" target="1.8" />
+      <module name="kevin-monitor" target="1.8" />
+      <module name="kevin-system" target="1.8" />
+      <module name="kevin-visual" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
