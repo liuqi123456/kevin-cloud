@@ -19,8 +19,8 @@
         <module name="kevin-common-seata" />
         <module name="kevin-common-security" />
         <module name="kevin-common-sensitive" />
-        <module name="kevin-auth" />
         <module name="kevin-common-log" />
+        <module name="kevin-auth" />
         <module name="kevin-common-core" />
         <module name="kevin-monitor" />
       </profile>
