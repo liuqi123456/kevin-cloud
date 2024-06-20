@@ -8,7 +8,7 @@ import java.util.List;
 
 /**
  * The basic cache used by ddd repository.
- * @author fangang
+ * @author kevin
  */
 public interface BasicCache {
 	/**

@@ -50,7 +50,7 @@ import java.io.InputStream;
 		}
 	}
  * </pre>
- * @author fangang
+ * @author kevin
  */
 public abstract class XmlBuildFactoryTemplate {
 

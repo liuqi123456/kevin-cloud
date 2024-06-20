@@ -6,7 +6,7 @@ import java.io.IOException;
 
 /**
  * The loader for reading resources.
- * @author fangang
+ * @author kevin
  */
 public interface ResourceLoader {
 

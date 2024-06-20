@@ -8,7 +8,7 @@ import java.io.InputStream;
 
 /**
  * The interface for reading resources.
- * @author fangang
+ * @author kevin
  */
 public interface Resource {
 	/**

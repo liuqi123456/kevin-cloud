@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * The generate query dao
- * @author fangang
+ * @author kevin
  */
 public interface QueryDao {
 	/**

@@ -13,7 +13,7 @@ import java.lang.reflect.Method;
 import java.util.List;
 
 /**
- * @author fangang
+ * @author kevin
  */
 public class ReferenceFactory<S extends Serializable> {
 	private Ref ref;

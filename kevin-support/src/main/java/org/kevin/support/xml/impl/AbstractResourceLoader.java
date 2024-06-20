@@ -6,7 +6,7 @@ import org.kevin.support.xml.ResourceLoader;
 import java.io.IOException;
 
 /**
- * @author fangang
+ * @author kevin
  */
 public abstract class AbstractResourceLoader implements ResourceLoader {
 

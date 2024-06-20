@@ -4,7 +4,7 @@ import java.io.InputStream;
 
 /**
  * The callback function for reading resources.
- * @author fangang
+ * @author kevin
  */
 @FunctionalInterface
 public interface ResourceCallBack {

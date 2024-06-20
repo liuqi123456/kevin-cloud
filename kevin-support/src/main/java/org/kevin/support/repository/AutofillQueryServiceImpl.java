@@ -17,7 +17,7 @@ import java.util.Map;
  * The implement of the query service that 
  * it auto fill each of the object property of the item of the query result set, like this: 
  * fill the addresses of each the customer of the result set.
- * @author fangang
+ * @author kevin
  */
 public class AutofillQueryServiceImpl extends QueryServiceImpl {
 

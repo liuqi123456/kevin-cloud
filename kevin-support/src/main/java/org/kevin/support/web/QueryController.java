@@ -13,7 +13,7 @@ import java.util.Map;
 
 /**
  * The generic query controller
- * @author fangang
+ * @author kevin
  */
 @RestController
 public class QueryController {

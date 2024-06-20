@@ -10,7 +10,7 @@ import java.util.Map;
 
 /**
  * The implements of the QueryDao with mybatis.
- * @author fangang
+ * @author kevin
  */
 public class QueryDaoMybatisImpl implements QueryDao {
 

@@ -4,7 +4,7 @@
 package org.kevin.support.exception;
 
 /**
- * @author fangang
+ * @author kevin
  */
 public class OrmException extends RuntimeException {
 

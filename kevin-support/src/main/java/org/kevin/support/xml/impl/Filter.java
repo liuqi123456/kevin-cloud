@@ -2,7 +2,7 @@ package org.kevin.support.xml.impl;
 
 /**
  * The file filter
- * @author fangang
+ * @author kevin
  */
 public abstract class Filter {
 	

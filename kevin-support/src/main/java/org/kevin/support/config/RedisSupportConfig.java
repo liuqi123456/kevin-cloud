@@ -10,7 +10,7 @@ import org.springframework.data.redis.core.RedisOperations;
 import org.springframework.data.redis.core.RedisTemplate;
 
 /**
- * @author fangang
+ * @author kevin
  */
 @Configuration
 @ConditionalOnClass(RedisOperations.class)

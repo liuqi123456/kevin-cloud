@@ -12,7 +12,7 @@ import java.io.InputStream;
 
 /**
  * load resources with the url.
- * @author fangang
+ * @author kevin
  */
 public class UrlResourceLoader extends AbstractResourceLoader implements ResourceLoader {
 	private static Logger log = LoggerFactory.getLogger(UrlResourceLoader.class);

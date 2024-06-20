@@ -6,7 +6,7 @@ import java.util.Map;
 
 /**
  * The generic query service
- * @author fangang
+ * @author kevin
  */
 public interface QueryService {
 

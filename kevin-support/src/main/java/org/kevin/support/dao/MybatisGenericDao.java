@@ -7,7 +7,7 @@ import java.util.Map;
 
 /**
  * The generic dao which persist data with mybatis.
- * @author fangang
+ * @author kevin
  */
 public interface MybatisGenericDao {
 	/**

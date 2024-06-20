@@ -12,7 +12,7 @@ import java.io.InputStream;
 
 /**
  * load resources with class local path.
- * @author fangang
+ * @author kevin
  */
 public class ClassPathResourceLoader extends AbstractResourceLoader implements ResourceLoader {
 	private static Logger log = LoggerFactory.getLogger(ClassPathResourceLoader.class);

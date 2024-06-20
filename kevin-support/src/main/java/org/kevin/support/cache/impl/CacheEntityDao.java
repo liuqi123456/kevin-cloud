@@ -18,7 +18,7 @@ import java.util.*;
  * 1) if load an entity, load from cache first.
  * 2) if not in the cache, set to cache after query from database.
  * 3) if update or delete an entity, delete from cache.
- * @author fangang
+ * @author kevin
  */
 public class CacheEntityDao extends DecoratorDaoImpl implements BasicDao {
 

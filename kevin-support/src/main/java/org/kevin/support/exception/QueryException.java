@@ -2,7 +2,7 @@ package org.kevin.support.exception;
 
 /**
  * 
- * @author fangang
+ * @author kevin
  */
 public class QueryException extends RuntimeException {
 	private static final long serialVersionUID = -4221944651020677138L;

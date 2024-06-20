@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * The result set of query.
- * @author fangang
+ * @author kevin
  */
 public class ResultSet {
 	private List<?> data;

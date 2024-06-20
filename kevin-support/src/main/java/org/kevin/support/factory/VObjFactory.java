@@ -13,7 +13,7 @@ import java.util.Map;
 
 /**
  * The factory that get the configure of the value objects.
- * @author fangang
+ * @author kevin
  */
 @Component
 public class VObjFactory extends XmlBuildFactoryTemplate {

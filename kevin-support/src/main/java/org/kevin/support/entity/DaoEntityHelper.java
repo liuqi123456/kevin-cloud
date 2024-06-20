@@ -11,7 +11,7 @@ import java.util.*;
 
 /**
  * The utilities for entity.
- * @author fangang
+ * @author kevin
  */
 public class DaoEntityHelper {
 

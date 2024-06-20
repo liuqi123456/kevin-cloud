@@ -11,7 +11,7 @@ import java.util.*;
 
 /**
  * The utility for the bean.
- * @author fangang
+ * @author kevin
  */
 public class BeanUtils {
 	/**

@@ -19,7 +19,7 @@ import java.util.Map;
  * According to the configuration vObj.xml: 
  * 1)if the entity has any join, fill the join after load data.
  * 2)if the entity has any join and the join is aggregation, save the join data in same transaction.
- * @author fangang
+ * @author kevin
  */
 public class Repository extends DecoratorDaoImpl implements BasicDao {
 

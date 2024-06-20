@@ -15,7 +15,7 @@ import java.util.*;
 
 /**
  * The cache implement for redis.
- * @author fangang
+ * @author kevin
  */
 public class RedisCache implements BasicCache {
 	private static Logger log = LoggerFactory.getLogger(RedisCache.class);

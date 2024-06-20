@@ -9,7 +9,7 @@ import java.util.Map;
 
 /**
  * The basic dao for generic insert, update, delete operations.
- * @author fangang
+ * @author kevin
  */
 public interface BasicDao {
 	/**

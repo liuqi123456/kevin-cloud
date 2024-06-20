@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * The abstract class for all of entity.
- * @author fangang
+ * @author kevin
  */
 public abstract class Entity<T extends Serializable> implements Serializable, Cloneable {
 

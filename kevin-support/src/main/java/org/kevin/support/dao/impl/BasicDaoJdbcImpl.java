@@ -17,7 +17,7 @@ import java.util.Map;
 
 /**
  * The implement of BasicDao with Jdbc.
- * @author fangang
+ * @author kevin
  */
 public class BasicDaoJdbcImpl implements BasicDao {
 

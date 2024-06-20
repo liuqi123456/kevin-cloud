@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * The configuration of the value object.
- * @author fangang
+ * @author kevin
  */
 public class VObj {
 	private String clazz;

@@ -10,7 +10,7 @@ import java.util.Map;
 
 /**
  * The decorator for BasicDao, that others can extend all kinds of functions for BasicDao.
- * @author fangang
+ * @author kevin
  */
 public abstract class DecoratorDaoImpl implements BasicDao {
 

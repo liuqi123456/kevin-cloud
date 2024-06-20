@@ -1,7 +1,7 @@
 package org.kevin.support.exception;
 
 /**
- * @author fangang
+ * @author kevin
  */
 public class DaoException extends RuntimeException {
 	private static final long serialVersionUID = -1004067818388851972L;

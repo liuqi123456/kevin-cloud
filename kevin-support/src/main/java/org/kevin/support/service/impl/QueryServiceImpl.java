@@ -9,7 +9,7 @@ import java.util.Map;
 
 /**
  * The implement of the generic query service.
- * @author fangang
+ * @author kevin
  */
 public class QueryServiceImpl implements QueryService {
 

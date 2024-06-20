@@ -10,7 +10,7 @@ import java.io.InputStream;
 
 /**
  * load resources with the file path.
- * @author fangang
+ * @author kevin
  */
 public class FileResourceLoader extends AbstractResourceLoader implements ResourceLoader {
 

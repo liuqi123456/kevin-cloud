@@ -2,7 +2,7 @@ package org.kevin.support.factory;
 
 /**
  * The relation of the value object.
- * @author fangang
+ * @author kevin
  */
 public class Join {
 

@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * The generic ddd factory to load and assemble domain objects together, 
  * according to vObj.xml 
- * @author fangang
+ * @author kevin
  */
 public class GenericEntityFactory<S extends Serializable> {
 

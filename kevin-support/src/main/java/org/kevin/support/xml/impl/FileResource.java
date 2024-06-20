@@ -14,7 +14,7 @@ import java.util.List;
 
 /**
  * search and read file with java.io.File
- * @author fangang
+ * @author kevin
  */
 public class FileResource implements Resource, ResourcePath {
 
