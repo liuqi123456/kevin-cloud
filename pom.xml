@@ -9,6 +9,7 @@
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
   <modules>
+	<module>kevin-support</module>
     <module>kevin-common</module>
     <module>kevin-gateway</module>
     <module>kevin-modules</module>
@@ -227,7 +228,11 @@
         <artifactId>kevin-common-swagger</artifactId>
         <version>${kevin.version}</version>
       </dependency>
-
+      <dependency>
+        <groupId>org.kevin</groupId>
+        <artifactId>kevin-support</artifactId>
+        <version>${kevin.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 

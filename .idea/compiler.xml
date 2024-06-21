@@ -15,6 +15,7 @@
         <module name="kevin-common-swagger" />
         <module name="kevin-job" />
         <module name="kevin-api-system" />
+        <module name="kevin-support" />
         <module name="kevin-common-datascope" />
         <module name="kevin-common-seata" />
         <module name="kevin-common-security" />
@@ -46,6 +47,7 @@
       <module name="kevin-job" target="1.8" />
       <module name="kevin-modules" target="1.8" />
       <module name="kevin-monitor" target="1.8" />
+      <module name="kevin-support" target="1.8" />
       <module name="kevin-system" target="1.8" />
       <module name="kevin-visual" target="1.8" />
     </bytecodeTargetLevel>
