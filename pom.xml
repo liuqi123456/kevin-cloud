@@ -90,6 +90,12 @@
         <artifactId>fastdfs-client</artifactId>
         <version>${tobato.version}</version>
       </dependency>
+      <!-- Minio -->
+      <dependency>
+        <groupId>io.minio</groupId>
+        <artifactId>minio</artifactId>
+        <version>${minio.version}</version>
+      </dependency>
       <!-- Swagger 依赖配置 -->
       <dependency>
         <groupId>io.springfox</groupId>
