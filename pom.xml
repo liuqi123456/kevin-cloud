@@ -47,6 +47,7 @@
     <druid.version>1.2.20</druid.version>
     <dynamic-ds.version>4.2.0</dynamic-ds.version>
     <minio.version>8.2.2</minio.version>
+    <mybatis.version>2.2.2</mybatis.version>
   </properties>
 
   <dependencyManagement>
