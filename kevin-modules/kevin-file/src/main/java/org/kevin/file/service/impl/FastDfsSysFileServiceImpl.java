@@ -15,7 +15,7 @@ import java.io.InputStream;
 /**
  * FastDFS 文件存储
  *
- * @author ruoyi
+ * @author kevin
  */
 @Service
 public class FastDfsSysFileServiceImpl implements ISysFileService
