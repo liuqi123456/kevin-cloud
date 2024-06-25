@@ -36,6 +36,7 @@ spring:
         ds1:
           nacos:
             server-addr: 127.0.0.1:8848
+            namespace: dev
             dataId: kevin-gateway-sentinel
             groupId: DEFAULT_GROUP
             data-type: json
