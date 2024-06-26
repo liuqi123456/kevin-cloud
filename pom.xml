@@ -44,7 +44,7 @@
     <fastjson.version>2.0.43</fastjson.version>
     <transmittable-thread-local.version>2.14.4</transmittable-thread-local.version>
     <jjwt.version>0.9.1</jjwt.version>
-    <druid.version>1.2.20</druid.version>
+    <druid.version>1.2.23</druid.version>
     <dynamic-ds.version>4.2.0</dynamic-ds.version>
     <minio.version>8.2.2</minio.version>
     <mybatis.version>2.2.2</mybatis.version>
